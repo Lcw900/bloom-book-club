@@ -1,0 +1,14 @@
+{
+  "name": "bloom-book-club",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev:cloudflare": "wrangler dev",
+    "deploy:cloudflare": "wrangler deploy",
+    "test": "node check-devices.cjs && node check-meetings.mjs && node check-worker.mjs && node check-daily-loader.cjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.1"
+  }
+}

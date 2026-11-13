@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.bloom-data/
+outputs/
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+cloudflare-deploy-output/
+
+.openai/
+*.tar.gz
+
